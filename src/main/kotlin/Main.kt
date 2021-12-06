@@ -1,3 +1,6 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    print("Enter your name: ")
+    val name = readLine()
+
+    println("Hello, $name")
 }
