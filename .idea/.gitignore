@@ -1,0 +1,16 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Custom
+/modules
+/runConfigurations.xml
+
+/gradle.xml
+/compiler.xml
+/.name
+/jarRepositories.xml
+/misc.xml
+*.iml
+
+remote-targets.xml
