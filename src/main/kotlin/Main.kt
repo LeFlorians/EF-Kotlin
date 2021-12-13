@@ -1,6 +1,13 @@
-fun main(args: Array<String>) {
-    print("Enter your name: ")
-    val name = readLine()
+import lan_training.John
 
-    println("Hello, $name")
+// DES, sDES
+// RSA
+
+fun main() {
+    // Create a John
+    val john = John("John", 10)
+
+    john.printAge()
+    john.printName()
+    john.printInfo("John's info:")
 }
